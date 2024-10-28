@@ -1,0 +1,107 @@
+body {
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #343a40;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+}
+.card {
+    border: none;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+.promotion-banner {
+    background-color: #ffcc00;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.logo {
+    width: 100px;
+    height: auto;
+}
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1529591963712-b94c368c5a0e');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero p {
+    font-size: 1.5rem;
+}
+#a{
+    background-color:rosybrown ;
+color:rose ;
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
+.custom-badge {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #6a5acd, #1da6f5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-badge:hover {
+    transform: scale(1.1) rotate(-3deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.custom-badge::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) rotate(30deg);
+    animation: pulsate 2s infinite;
+}
+
+@keyframes pulsate {
+    0% {
+        transform: translate(-50%, -50%) scale(1) rotate(30deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.05) rotate(30deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1) rotate(30deg);
+    }
+}
+.strange-style {
+    font-family: 'Creepster', cursive; 
+    font-size: 2em; 
+    color: #ffffff; 
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, color 0.3s; 
+    position: relative; 
+}
+
+.strange-style:hover {
+    transform: scale(1.1) rotate(5deg); 
+    color: #ffffff;
+}

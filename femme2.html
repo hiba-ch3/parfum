@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parfums pour Hommes 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .custom-badge {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #6a5acd, #1da6f5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-badge:hover {
+    transform: scale(1.1) rotate(-3deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.custom-badge::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) rotate(30deg);
+    animation: pulsate 2s infinite;
+}
+
+@keyframes pulsate {
+    0% {
+        transform: translate(-50%, -50%) scale(1) rotate(30deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.05) rotate(30deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1) rotate(30deg);
+    }
+}
+.strange-style {
+    font-family: 'Creepster', cursive; /* Une police étrange */
+    font-size: 2em; /* Taille de police agrandie */
+    color: #FF5733; /* Couleur vive */
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5); /* Ombre du texte */
+    transition: transform 0.3s, color 0.3s; /* Animation de transition */
+    position: relative; /* Pour les animations */
+}
+
+.strange-style:hover {
+    transform: scale(1.1) rotate(5deg); /* Légère mise à l'échelle et rotation au survol */
+    color: #33FF57; /* Changement de couleur au survol */
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="logo">
+            <img src="https://img.freepik.com/vecteurs-premium/conception-modele-logo-parfum-luxe_23-2148467150.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="container">
+            <a class="navbar-brand  strange-style" href="acceuil.html">Parfum de luxe</a>
+        </div>
+    </nav>
+    </header>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="acceuil.html">parfums</a></li>
+            <li class="breadcrumb-item active" aria-current="page">femmes</li>
+        </ol>
+    </nav>
+    <!-- Promotional Products Section -->
+    <div class="container mt-5">
+        <h2 class="text-center text-primary border border-dark border-5 rounded-circle p-3 background: linear-gradient(45deg, #6a11cb, #2575fc); color: white;" style="transform: skew(-10deg);">Parfums Homme</h2>
+        <style>
+            @keyframes blink {
+              0% { opacity: 1; }
+              50% { opacity: 0; }
+              100% { opacity: 1; }
+            }
+            </style>
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://fragrancerevolutionboutique.co.uk/cdn/shop/files/21A2613E-1C68-4374-94AA-EDA334ECC123.jpg?v=1706220918&width=416" class="card-img-top" alt="Parfum 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Imagination</h5>
+                        <p class="card-text">Le parfum "Imagination" de Louis Vuitton évoque un voyage
+                             sensoriel à travers des notes envoûtantes et raffinées.</p>
+                              <span class="font-weight-bold font-weight-bold text-white bg-dark border border-gold rounded p-2 shadow">55,00€</span><br><br>
+                              <span class="badge bg-success badge bg-success position-relative overflow-hidden custom-badge">Promotion de 50%</span>
+                        <button class="btn btn-primary mt-2">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE7ZyYGhmlGvwPyq-5NnNhcbDsbTLVuSKZlQ&s" class="card-img-top" alt="Parfum 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Burberry</h5>
+                        <p class="card-text">Le parfum Burberry est une ode à l'élégance britannique,
+                             alliant sophistication et modernité.</p>
+                        <span class="font-weight-bold font-weight-bold text-white bg-dark border border-gold rounded p-2 shadow ">63,00€</span><br><br>
+                        <span class="badge bg-success badge bg-success position-relative overflow-hidden custom-badge">Promotion de 25%</span>
+                        <button class="btn btn-primary mt-2">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://nakhoua.ma/wp-content/uploads/2022/07/acqua_di_parma_ambra_eau_de_parfum_100ml-2_1.jpg" class="card-img-top" alt="Parfum 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Acqua di Parma</h5>
+                        <p class="card-text">Acqua di Parma est un parfum emblématique qui évoque l'élégance 
+                            italienne et la fraîcheur méditerranéenne.</p>
+                        <span class="font-weight-bold font-weight-bold text-white bg-dark border border-gold rounded p-2 shadow">80,00€</span><br><br>
+                        <span class="badge bg-success badge bg-success position-relative overflow-hidden custom-badge">Promotion de 30%</span>
+                        <button class="btn btn-primary mt-2">Add to Cart</button>
+                    </div>
+                </div>
+            </div>         
+    </main>
+    <div>
+    <nav aria-label="Page navigation exemple">
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+ 
+      <li class="page-item"><a class="page-link" href="women.page1.html">1</a></li>
+      <li class="page-item"><a class="page-link" href="women.page2.html">2</a></li>
+     
+      <li class="page-item active" aria-current="page">
+        
+      </li>
+    
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+    </div>
+  </nav>
+    </div>
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Parfums pour Hommes. Tous droits réservés.</p>
+    </footer>
+   
+</body>
+</html>
